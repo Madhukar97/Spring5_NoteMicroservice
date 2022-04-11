@@ -1,0 +1,13 @@
+server:
+  port: 8086
+  
+spring:
+  data:
+    mongodb:
+      database: UserMicroservice
+      host: localhost
+      port: 27017
+
+  mvc:
+      pathmatch:
+            matching-strategy: ant-path-matcher
